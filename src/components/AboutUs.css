@@ -1,0 +1,30 @@
+.about-section {
+  min-height: 100vh;
+  padding-top: 100px;
+  background-color: #f8f9fa;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+}
+
+.about-heading {
+  background-color: black;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1.5rem;
+  transition: all 1s ease;
+}
+
+.about-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 1s ease, box-shadow 1s ease;
+}
+
+.about-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}

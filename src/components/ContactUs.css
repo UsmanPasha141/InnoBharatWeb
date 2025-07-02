@@ -1,0 +1,45 @@
+.contact-section {
+  padding: 100px 0;
+  background-color: #fafafa;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #1b1b1b;
+  margin-bottom: 2.5rem;
+  background-color: black;
+  color: white;
+}
+
+.contact-input {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+}
+
+.contact-input:focus {
+  box-shadow: 0 0 8px #0d6efd;
+  border-color: #0d6efd;
+  outline: none;
+  background-color: black;
+  color: white;
+}
+
+.contact-btn {
+  padding: 0.6rem 2rem;
+  font-weight: 600;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 6px;
+}
+
+.contact-btn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 8px 20px rgba(0, 86, 179, 0.4);
+}
