@@ -11,6 +11,7 @@ import Portfolio from "./components/Portfolio";
 import Investors from "./components/Investors";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
+import CustomCursor from "./components/CustomCursor";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+      <CustomCursor />
       <Navbar />
       <AboutUs />
       <Services />

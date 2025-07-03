@@ -17,6 +17,10 @@
   color: white;
 }
 
+.intro-text {
+  text-align: center;
+}
+
 .sub-heading {
   font-size: 1.6rem;
   font-weight: 600;
@@ -63,4 +67,30 @@
   list-style-type: disc;
   background-color: black;
   color: white;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+.top-buttons {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to right */
+  gap: 15px; /* Space between buttons */
+  margin-bottom: 20px; /* Space below buttons */
+}
+
+.top-btn {
+  border-radius: 25px; /* Rounded pill shape */
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #00aaff; /* Bright blue text */
+  border: 2px solid #00aaff;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.top-btn:hover {
+  background-color: #00aaff; /* Blue background on hover */
+  color: white; /* White text on hover */
+  box-shadow: 0 0 8px #00aaff;
 }

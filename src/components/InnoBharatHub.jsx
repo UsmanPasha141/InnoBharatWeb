@@ -162,6 +162,18 @@ const InnoBharatHub = () => {
       <Container>
         <h2 className="section-heading">Inno-Bharat-Hub</h2>
 
+        <div className="top-buttons">
+          <button variant="outline-light" className="top-btn">
+            Collaborators
+          </button>
+          <button variant="outline-light" className="top-btn">
+            Programs
+          </button>
+          <button variant="outline-light" className="top-btn">
+            Register
+          </button>
+        </div>
+
         <p className="intro-text">
           Inno-Bharat-Hub is a community-driven, open innovation ecosystem
           launched and managed by M SANTOO!...

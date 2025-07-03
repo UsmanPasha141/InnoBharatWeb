@@ -8,12 +8,14 @@
 
 .section-heading {
   text-align: center;
-  font-size: 2.6rem;
-  font-weight: 700;
-  color: #1b1b1b;
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffd700; /* Golden yellow */
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.6), 0 0 20px rgba(255, 215, 0, 0.4); /* Soft glowing effect */
   margin-bottom: 2.5rem;
-  background-color: black;
-  color: white;
+  transition: all 1s ease;
 }
 
 .contact-input {
